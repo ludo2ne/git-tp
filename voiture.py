@@ -8,4 +8,4 @@ class Voiture:
     def accelere(self, increment):
         if increment > 10:
             increment = 10
-        self.vitesse = min(130, self.vitesse + increment)
+        self.vitesse = min(110, self.vitesse + increment)
